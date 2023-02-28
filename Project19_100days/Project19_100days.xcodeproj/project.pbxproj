@@ -19,6 +19,9 @@
 		7806249629ACFF5400A7FD78 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7806249429ACFF5400A7FD78 /* MainInterface.storyboard */; };
 		7806249A29ACFF5400A7FD78 /* Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7806248B29ACFF5400A7FD78 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		780624A029AD028100A7FD78 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 7806249F29AD028100A7FD78 /* Action.js */; };
+		784C89C029ADD70700BE790E /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784C89BF29ADD70700BE790E /* LoaderViewController.swift */; };
+		784C89C229ADD72B00BE790E /* UserScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784C89C129ADD72B00BE790E /* UserScript.swift */; };
+		784C89C429ADD75800BE790E /* ScriptExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784C89C329ADD75800BE790E /* ScriptExamples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		7806249529ACFF5400A7FD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		7806249729ACFF5400A7FD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7806249F29AD028100A7FD78 /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		784C89BF29ADD70700BE790E /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		784C89C129ADD72B00BE790E /* UserScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScript.swift; sourceTree = "<group>"; };
+		784C89C329ADD75800BE790E /* ScriptExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptExamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,9 @@
 			children = (
 				7806249029ACFF5400A7FD78 /* Media.xcassets */,
 				7806249229ACFF5400A7FD78 /* ActionViewController.swift */,
+				784C89BF29ADD70700BE790E /* LoaderViewController.swift */,
+				784C89C129ADD72B00BE790E /* UserScript.swift */,
+				784C89C329ADD75800BE790E /* ScriptExamples.swift */,
 				7806249429ACFF5400A7FD78 /* MainInterface.storyboard */,
 				7806249729ACFF5400A7FD78 /* Info.plist */,
 				7806249F29AD028100A7FD78 /* Action.js */,
@@ -249,7 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784C89C229ADD72B00BE790E /* UserScript.swift in Sources */,
 				7806249329ACFF5400A7FD78 /* ActionViewController.swift in Sources */,
+				784C89C029ADD70700BE790E /* LoaderViewController.swift in Sources */,
+				784C89C429ADD75800BE790E /* ScriptExamples.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
